@@ -1,1 +1,2 @@
-
+numero = int(input("Digite um número "))
+print(f"O número {numero} é divisivel por 5." if numero % 5 == 0 else f'O número não é divisivel por 5.')
